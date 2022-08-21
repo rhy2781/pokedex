@@ -27,8 +27,9 @@ def main():
     pokedex = load_data()
 
     # this will contain the information that we will store about the pokemon
-    # data = request_and_process_pokemon_data("bulbasaur")
-    # pokedex["bulbasaur"] = data
+    s = "charmander"
+    data = request_and_process_pokemon_data(s)
+    pokedex[s] = data
 
 
     # file management
